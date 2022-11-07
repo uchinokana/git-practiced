@@ -5,27 +5,27 @@
 }
 
 header {
+  width: 100%;
   height: 50px;
   background-color: #ff9a4b;
 }
 
 main {
-  width: 960px;
+  width: 100%;
   margin: 50px auto;
-  display: block;
+  display: flex;
 }
 
 .step-box {
-  width: 300px;
+  width: 90%;
   margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
   padding: 10px;
   position: relative;
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
 
 .step-img1 {
   height: 150px;
@@ -64,7 +64,6 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
-
 @media screen and (max-width: 768px) {
   header {
   width: 100%
